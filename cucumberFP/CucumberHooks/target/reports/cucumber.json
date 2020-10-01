@@ -1,0 +1,103 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6359789700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.doSomethingBefore()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "",
+        "description": "",
+        "id": "dragdrop;",
+        "after": [
+          {
+            "result": {
+              "duration": 152206700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.doSomethingAfter()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6451460600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user is on the index page at \"http://localhost:8000/index.html\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://localhost:8000/index.html\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinitions.java:22"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5473371200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Selenium drags \"draggable\" into \"droppable\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"draggable\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"droppable\"",
+                  "offset": 32
+                }
+              ],
+              "location": "stepDefinitions.java:28"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5074366700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "should check the contents of \"dropstatus\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"dropstatus\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepDefinitions.java:44"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "DragDrop",
+    "description": "",
+    "id": "dragdrop",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/hooks.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 17136828100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user is on Twitter log in page",
+            "match": {
+              "location": "annotation.java:19"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "id": "annotation;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10876107300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter the username as \"Timon\" and password as \"Pumba\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Timon\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"Pumba\"",
+                  "offset": 48
+                }
+              ],
+              "location": "annotation.java:27"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4402876500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "login should fail",
+            "match": {
+              "location": "annotation.java:37"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "annotation",
+    "description": "",
+    "id": "annotation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/sample.feature",
+    "tags": []
+  }
+]

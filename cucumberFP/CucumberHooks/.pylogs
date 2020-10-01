@@ -1,0 +1,5 @@
+Serving HTTP on 0.0.0.0 port 8000 ...
+10.40.0.14 - - [28/Sep/2020 21:57:58] "GET / HTTP/1.1" 200 -
+10.40.0.14 - - [28/Sep/2020 21:57:58] "GET /test.html HTTP/1.1" 200 -
+10.40.0.14 - - [28/Sep/2020 21:58:04] code 404, message File not found
+10.40.0.14 - - [28/Sep/2020 21:58:04] "GET /favicon.ico HTTP/1.1" 404 -

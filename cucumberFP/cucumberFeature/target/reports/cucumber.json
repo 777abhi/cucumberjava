@@ -1,0 +1,148 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "cucumber setup",
+        "description": "",
+        "id": "login;cucumber-setup",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8254028600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the user login page",
+            "match": {
+              "location": "login.java:17"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 329376300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user enters the email as \"kenadams@gmail.com\" and password as \"ken@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kenadams@gmail.com\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"ken@123\"",
+                  "offset": 66
+                }
+              ],
+              "location": "login.java:31"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1316762700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "login should be successful",
+            "match": {
+              "location": "login.java:42"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "  I want to run a sample feature file",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "cucumber setup",
+        "description": "",
+        "id": "registration;cucumber-setup",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4418039100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the user registration page",
+            "match": {
+              "location": "register.java:17"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10521992500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user enters valid data on the page \"Ken\",\"Adams\",\"kenadams@gmail.com\",\"ken@123\",\"02-02-2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ken\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"Adams\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"kenadams@gmail.com\"",
+                  "offset": 53
+                },
+                {
+                  "val": "\"ken@123\"",
+                  "offset": 74
+                },
+                {
+                  "val": "\"02-02-2020\"",
+                  "offset": 84
+                }
+              ],
+              "location": "register.java:27"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1284605700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user registration should be successful",
+            "match": {
+              "location": "register.java:46"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Registration",
+    "description": "  I want to run a sample feature file",
+    "id": "registration",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/register.feature",
+    "tags": []
+  }
+]
