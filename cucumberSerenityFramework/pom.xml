@@ -13,7 +13,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <serenity.version>2.3.2</serenity.version>
         <serenity.cucumber.version>2.3.2</serenity.cucumber.version>
-        <webdriver.driver></webdriver.driver>
+        <webdriver.driver/>
     </properties>
 
     <repositories>
@@ -107,7 +107,7 @@
         <dependency>
             <groupId>org.assertj</groupId>
             <artifactId>assertj-core</artifactId>
-            <version>3.13.2</version>
+            <version>3.24.2</version>
         </dependency>
     </dependencies>
     <build>
